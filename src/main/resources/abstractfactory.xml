@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+    <className>com.example.pattern.abstractfactory.demo2.TCLFactory</className>
+</config>
