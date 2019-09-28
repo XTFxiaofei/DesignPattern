@@ -16,7 +16,7 @@ public class XMLUtil {
             DocumentBuilderFactory dFactory=DocumentBuilderFactory.newInstance();
             DocumentBuilder builder=dFactory.newDocumentBuilder();
             Document doc;
-            doc=builder.parse(new File("D:/idea/DesignPattern/src/main/resources/"+configName));
+            doc=builder.parse(new File("F:\\javaProjects\\DesignPattern\\src\\main\\resources\\"+configName));
 
             //获取包含类名的文本节点
             NodeList n1=doc.getElementsByTagName("className");
